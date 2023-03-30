@@ -12,11 +12,11 @@ function calculateVolume () {
   // input
   let sideA = parseFloat(document.getElementById('side-a-tri-pyramid').value);
   let sideB = parseFloat(document.getElementById('side-b-tri-pyramid').value);
-  let height = parseFloat(document.getElementById('height-tra').value);
+  let height = parseFloat(document.getElementById('height-tri-pyramid').value);
 
   // process
-  let area = (sideA + sideB) * height / 2;
+  let volume = (1/6 * sideA * sideB * height);
 
   // output
-  document.getElementById('area').innerHTML = 'Area is: ' + area.toFixed(2) + ' cm<sup>2</sup>.'
+  document.getElementById('volume').innerHTML = "Volume is: " + volume.toFixed(2) + " cm<sup>3</sup>."
 }
