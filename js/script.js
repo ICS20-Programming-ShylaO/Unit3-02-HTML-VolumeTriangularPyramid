@@ -6,7 +6,7 @@
 
 "use strict";
 /**
- * This function calculates the area of a trapezoid.
+ * This function calculates the volume of a right triangular pyramid.
  */
 function calculateVolume () {
   // input
